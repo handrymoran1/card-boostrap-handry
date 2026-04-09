@@ -1,0 +1,23 @@
+ /* Para que la fuente se vea más profesional */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f1ea !important; /* Un beige muy suave de fondo */
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efecto de levante al pasar el mouse */
+}
+
+/* Botón personalizado con tu color favorito */
+.btn-dark {
+    background-color: #6F5D44; /* Tu color bronce/marrón */
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #708250; /* Cambia a tu verde oliva al pasar el mouse */
+}
